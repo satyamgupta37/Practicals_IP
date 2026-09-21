@@ -1,4 +1,16 @@
-#Quesrtion_2
+#Question_1
+name="Asha"
+age=18
+marks=91.5
+city="Pune"
+
+#Displaying values
+print("Name:",name)
+print("Age:",age)
+print("Marks:",marks)
+print("City:",city)
+
+#Question_2
 a = 23.23
 print(type(a))
 print(a)
