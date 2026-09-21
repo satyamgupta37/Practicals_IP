@@ -1,34 +1,25 @@
 #Queestion_1
 name = input("Enter your name: ")
 age = int(input("Enter your age: "))
-
-print(name, " is your name and")
-print(f"\n{age} is your age")
+print("Simple print:")
+print(name,age)
+print("\n Formatted String:")
+print(f"My name is {name} and I am {age} years old.")    
 
 #Question_2
+num1=int(input("Enter first number: "))
+num2=int(input("Enter second number: "))
+print("Addition=",num1 + num2)
+print("Subtraction=",num1-nn=um2)
+print("Multiplication=",num1*num2)
+print("Division=",num1/num2)
 
-#Incorrect
-
-n1 = int(input("Enter number(1): "))
-n2 = (input("Enter number(2): "))
-"""
-In comment cuz give error...  D:
-print(n1+n2)
-print(n1-n2)
-print(n1*n2)
-print(n1/n2)
-"""
-
-#Correct
-#This'll run...  :D
-n2 = int(n2)
-print(n1+n2)
-print(n1-n2)
-print(n1*n2)
-print(n1/n2)
+#Without Type Conversion
+a=input("Enter first number: ")
+b=input("Enter second number: ")
+print("Addition=",a+b)
 
 #Quesstion_3
-
 num1 = int(input("Enter a number: "))
 num2 = int(input("Enter a number: "))
 num3 = int(input("Enter a number: "))
